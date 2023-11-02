@@ -11,8 +11,7 @@ function App() {
       try {
         await app.initialize();
         setTeamsInitialized(true);
-      } catch (err) {
-        console.error(err);
+      } catch (err) {   
       }
     }
     if (!teamsInitialized) {
