@@ -22,7 +22,6 @@ function App() {
 
   let location = useLocation();
   useEffect(() => {
-    window.alert("The current URL is " + window.location.origin + location.pathname);
     if (teamsInitialized) {
       pages.setCurrentFrame({
         websiteUrl: window.location.origin + location.pathname,
